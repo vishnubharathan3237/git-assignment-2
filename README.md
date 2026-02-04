@@ -9,7 +9,7 @@
 ## Part 1 (Branch then merging within your fork)
 1. First, you will make a branch named writing
 2. To do this, you can run, git checkout -b writing
-3. To check which branch you are on, you can run git status, it should say on branch: my-branch
+3. To check which branch you are on, you can run git status, it should say on branch: writing
 4. Push this branch to GitHub using git push -u origin writing
 5. Then, you will make some changes to the line below.
 6. *WRITE YOUR SCHOOL + INTENDED MAJOR HERE*
