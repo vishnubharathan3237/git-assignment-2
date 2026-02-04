@@ -20,19 +20,19 @@ cd git-assignment-2
 1. Create a new branch named `writing`:
 git checkout -b writing
 
-2. Check which branch you are on:
-git status
+2. Check which branch you are on: \
+git status \
 It should say you are on branch `writing`.
 
-3. Push this branch to GitHub:
+3. Push this branch to GitHub: \
 git push -u origin writing
 
-4. Make a change to the line below in this file:
+4. Make a change to the line below in this file: \
 WRITE YOUR SCHOOL + INTENDED MAJOR HERE
 
-5. Add, commit, and push your changes:
-git add README.md
-git commit -m "Add school and intended major"
+5. Add, commit, and push your changes: \
+git add README.md \
+git commit -m "Add school and intended major" \
 git push
 
 6. On GitHub, open a pull request **within your fork**:
@@ -53,14 +53,14 @@ git push
 
 ## Part 2 (Making a pull request to my repository)
 
-1. GitHub now has your merged changes, but your **local** repository does not yet.
-Switch to `main` locally:
+1. GitHub now has your merged changes, but your **local** repository does not yet. \
+Switch to `main` locally: \
 git checkout main
 
-2. Make sure you are on `main`:
+2. Make sure you are on `main`: \
 git status
 
-3. Pull the latest changes from GitHub:
+3. Pull the latest changes from GitHub: \
 git pull
 
 4. Add a new line below: \
@@ -95,27 +95,27 @@ Submit a link to your fork of this repository on Google Classroom.
 
 This part is optional, but recommended if you finish early.
 
-1. Make sure you are on the `main` branch:
-git status
-If not:
+1. Make sure you are on the `main` branch: \
+git status \
+If not: \
 git checkout main
 
-2. Create a new branch called `typo-fix`:
+2. Create a new branch called `typo-fix`: \
 git checkout -b typo-fix
 
 3. Find **any typo or wording you think could be improved** in this README and fix it.
 
-4. Add, commit, and push your changes:
-git add README.md OR git add .
-git commit -m "Fix typo in README"
+4. Add, commit, and push your changes: \ 
+git add README.md OR git add . \
+git commit -m "Fix typo in README" \
 git push -u origin typo-fix
 
-5. On GitHub, open a pull request **from `typo-fix` to `main` within your fork**.  
+5. On GitHub, open a pull request **from `typo-fix` to `main` within your fork**.  \
 Do **not** include my repository in this pull request.
 
 6. Merge the pull request.
 
 7. After merging, your `main` branch and your `typo-fix` branch should be identical.
 
-If you complete this, you have now practiced the full GitHub workflow twice:
+If you complete this, you have now practiced the full GitHub workflow twice: \
 branch → commit → push → pull request → merge.
