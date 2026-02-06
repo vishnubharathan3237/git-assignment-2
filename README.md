@@ -17,7 +17,7 @@ cd git-assignment-2
 
 ## Part 1 (Branching and merging within your fork)
 
-1. Create a new branch named `writing`:
+1. Create a new branch called `writing`:
 git checkout -b writing
 
 2. Check which branch you are on: \
@@ -27,12 +27,12 @@ It should say you are on branch `writing`.
 3. Push this branch to GitHub: \
 git push -u origin writing
 
-4. Make a change to the line below in this file: \
+4. Make a change to the line below in this README.md file: \
 Lone Star High School - Engineering
 
 5. Add, commit, and push your changes: \
 git add README.md \
-git commit -m "Add school and intended major" \
+git commit -m "Added school and intended major" \
 git push
 
 6. On GitHub, open a pull request **within your fork**:
